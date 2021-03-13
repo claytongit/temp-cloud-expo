@@ -1,0 +1,37 @@
+export function Condition( param ){
+    switch (param) {
+        case 'storm':
+
+            return icon = {
+                name: 'rainy-outline',
+                color: '#1EC9FF'
+            };
+            
+            break;
+    
+        case 'clear_day':
+
+            return icon = {
+                name: 'partly-sunny-outline',
+                color: '#FFB300'
+            };
+            
+            break;
+        
+        case 'rain':
+
+            return icon = {
+                name: 'rainy-outline',
+                color: '#1EC9FF'
+            };
+            
+            break;
+        
+        default:
+
+            return icon = {
+                name: 'cloud-outline',
+                color: '#1EC9FF'
+            };
+    }
+}
